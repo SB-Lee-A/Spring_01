@@ -29,7 +29,32 @@ pom.xml에 스프링 시큐리티 관련된 태그 라이브러리를 활용할 
 `#security-context.xml 생성(ibatis(mybatis(?)) 사용시)<br>`
 
 ![securityIbatis](https://user-images.githubusercontent.com/73210774/101459248-5c771200-397b-11eb-95a0-1608df55fb55.png)<br>
+
 `#security-config.java 생성(jpa 사용시)<br>`
 
 ![securityJpa](https://user-images.githubusercontent.com/73210774/101459735-f63ebf00-397b-11eb-86dd-af4ce12fb297.png)
+
+-----------------
+
+### Security 인증예외 설정
+- security="none"설정은 앞의 패턴에 인증을 예외적용 시킨다.
+
+- *(별표시)는 하위 모든 경로에 대해 인증을 예외하겠다는거다.
+
+- access-denied-page는 인증이 끊어진 세션을 어느 페이지로 이동할지 결정한다.
+
+- intercept-url은 어떤 인증절차의 유저를 접근하게 할것인지 결정한다.
+
+   isAuthenticated()는 인증된 사용자면 접근가능이다.
+
+- form-login login-page 는 로그인페이지로 어떤페이지를 쓸지 결정한다.
+
+- authentication-failure-url은 인증실패시 이동할 페이지이다.
+
+- authenticationSuccessHandler는 인증 후 어떤로직으로 처리할지 결정한다.
+
+   나는 여기서 인증후 default page설정을 했다.
+
+- logout-success-url은 로그아웃 후 어떤페이지로 이동할지 결정한다.
+
 

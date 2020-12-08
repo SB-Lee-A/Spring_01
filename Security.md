@@ -21,6 +21,7 @@
 ### Spring Web Security 설정
 
 ![securityPom](https://user-images.githubusercontent.com/73210774/101458145-d8705a80-3979-11eb-9b64-520561591c6a.png)
+
 pom.xml에 스프링 시큐리티 관련된 태그 라이브러리를 활용할 수 있도록 추가해줍니다.
 
 스프링 시큐리티는 단독으로 설정할 수 있기 때문에 별도로 작성하는 것이 좋음

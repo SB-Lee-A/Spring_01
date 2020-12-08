@@ -45,15 +45,13 @@ pom.xml에 스프링 시큐리티 관련된 태그 라이브러리를 활용할 
 
 - intercept-url은 어떤 인증절차의 유저를 접근하게 할것인지 결정한다.
 
-   isAuthenticated()는 인증된 사용자면 접근가능이다.
+   isAuthenticated()는 인증된 사용자면 접근가능하다.
 
 - form-login login-page 는 로그인페이지로 어떤페이지를 쓸지 결정한다.
 
 - authentication-failure-url은 인증실패시 이동할 페이지이다.
 
 - authenticationSuccessHandler는 인증 후 어떤로직으로 처리할지 결정한다.
-
-   나는 여기서 인증후 default page설정을 했다.
 
 - logout-success-url은 로그아웃 후 어떤페이지로 이동할지 결정한다.
 

@@ -20,11 +20,11 @@
 
 ### Spring Web Security 설정
 
-![securityPom](https://user-images.githubusercontent.com/73210774/101458145-d8705a80-3979-11eb-9b64-520561591c6a.png)
+pom.xml에 스프링 시큐리티 관련된 태그 라이브러리를 활용할 수 있도록 추가해줍니다.<br>
+![securityPom](https://user-images.githubusercontent.com/73210774/101458145-d8705a80-3979-11eb-9b64-520561591c6a.png)<br>
+스프링 시큐리티는 단독으로 설정할 수 있기 때문에 별도로 작성하는 것이 좋음<br>
 
-pom.xml에 스프링 시큐리티 관련된 태그 라이브러리를 활용할 수 있도록 추가해줍니다.
-
-스프링 시큐리티는 단독으로 설정할 수 있기 때문에 별도로 작성하는 것이 좋음
-security-context.xml 생성(ibatis 사용시)
+security-context.xml 생성(ibatis(mybatis(?)) 사용시)<br>
+![securityIbatis](https://user-images.githubusercontent.com/73210774/101459248-5c771200-397b-11eb-95a0-1608df55fb55.png)<br>
 security-config.java 생성(jpa 사용시)
 

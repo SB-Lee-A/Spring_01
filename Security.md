@@ -25,8 +25,8 @@ pom.xml에 스프링 시큐리티 관련된 태그 라이브러리를 활용할 
 
 
 스프링 시큐리티는 단독으로 설정할 수 있기 때문에 설정파일은 별도로 작성하는 것이 좋음<br>
-`security-context.xml 생성(ibatis(mybatis(?)) 사용시)<br>`
+#`security-context.xml 생성(ibatis(mybatis(?)) 사용시)<br>`
 ![securityIbatis](https://user-images.githubusercontent.com/73210774/101459248-5c771200-397b-11eb-95a0-1608df55fb55.png)<br>
-`security-config.java 생성(jpa 사용시)<br>`
+#`security-config.java 생성(jpa 사용시)<br>`
 ![securityJpa](https://user-images.githubusercontent.com/73210774/101459735-f63ebf00-397b-11eb-86dd-af4ce12fb297.png)
 

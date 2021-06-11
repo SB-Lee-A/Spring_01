@@ -6,7 +6,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 
 <mapper namespace="com.mysql.mappers.BoardMapper">
 
-	<!-- 게시판 추가하기 -->
+	<!-- 게시판 추가하기(MyBatis) -->
 	<insert id="insertBoard">
 		INSERT INTO h_board (b_title,b_writer,b_detail,b_date) values(#{b_title},#{b_writer},#{b_detail},SYSDATE())
 	</insert>
